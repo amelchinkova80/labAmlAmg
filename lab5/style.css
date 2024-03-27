@@ -1,0 +1,259 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #6bb2fb;
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+
+.container_1 {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: aliceblue;
+}
+
+.offer {
+    width: 500px;
+}
+
+.header_logo {
+    padding-bottom: 25px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-family: Verdana; 
+}
+
+.title_span {
+    display: block;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.offer_text {
+    font-size: 15px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.header_img {
+    margin-top: 30px;
+    width: 500px;
+}
+
+.btn {
+    width: 220px;
+    height: 32px;
+    color: black;
+    font-size: 16px;
+    background-color: #ffd429;
+    font-weight: bold;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition 1 */
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    background-color: rgb(195, 115, 59);
+    box-shadow: 10px 10px 10px rgb(164, 164, 194);
+}
+
+.container_2 {
+    width: 1100px;
+    margin: auto;
+    padding-top: 35px;
+}
+
+
+.main {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content_in_block {
+    color: black;
+}
+
+.blocks_title {
+    color: black;  
+}
+
+.main_title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+
+.img_in_blocks {
+    margin-bottom: 30px;
+    
+}
+
+.main_blocks {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container_3 {
+    width: 1100px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.forms {
+    background-color: #ecf3f8;
+}
+
+.forms_header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+}
+
+.forms_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms_2 {
+    margin-bottom: 20px;
+}
+
+.forms_3 {
+    width: 280px;
+    height: 40px;
+}
+
+.btn_1 {
+    width: 288px;
+    height: 30px;
+    color: black;
+    font-size: 16px;
+    background-color: #ffd429;
+    font-weight: bold;
+    padding: 15px 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    /* transition 2 */
+    transition: all 0.3s linear;
+}
+
+.btn_1:hover {
+    top: 3px;
+    left: 3px;
+    background-color: rgb(49, 249, 49);
+    box-shadow: 5px 5px 5px rgb(164, 164, 194);
+}
+
+.footer_1 {
+    background-color: #227ecb;
+    width: auto;
+    margin: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    color: white;
+}
+
+/* keyFrames 1 */
+
+.keyFrames1 {
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    25% {
+        transform: rotate(120deg);
+    }
+
+    50% {
+        transform: rotate(240deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* keyFrames 2 */
+
+.keyFrames2 {
+    animation-name: shifting;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shifting {
+    0% {
+        margin-left: 0;
+    }
+
+    12.5% {
+        margin-left: -240px;
+    }
+
+    25% {
+        margin-left: -480px;
+    }
+
+    37.5% {
+        margin-left: -240px;
+    }
+
+    50% {
+        margin-left: 0px;
+    }
+
+    62.5% {
+        margin-left: 240px;
+    }
+
+    75% {
+        margin-left: 480px;
+    }
+
+    87.5% {
+        margin-left: 240px;
+    }
+    
+    100% {
+        margin-left: 0;
+    }
+}
