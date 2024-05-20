@@ -1,0 +1,25 @@
+.container {
+    border: 1px solid black;
+    text-align: center;
+    width: 420px;
+    height: 525px;
+}
+
+.text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.button {
+    width: 45px;
+    height: 25px;
+    font-size: 7px;
+}
